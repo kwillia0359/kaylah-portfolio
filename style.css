@@ -1,0 +1,116 @@
+h1 {
+    padding: 10px;
+    text-align: center;
+    background: #d37fb4;
+    color: #0b0909;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+* body {
+    font-family: Arial;
+    margin: 0;
+    color: rgb(10, 1, 1);
+}
+
+
+
+
+
+.card {
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 10px blue (10, 10, 10, 10);
+    width: 33%;
+}
+
+.card-title {
+
+
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(85, 84, 84, 0.2);
+}
+
+
+
+nav {
+    display: flex;
+    background-color: #d37fb4;
+    display: flex;
+}
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+}
+
+#main-article {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
+
+.main-header img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    transform: rotate(-90deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+section {
+    flex: 3;
+    background-color: #756f75;
+    padding: 20px;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+
+}
+
+.card-body img {
+    width: 50%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #bb8588;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+        flex-direction: column;
+    }
+
+    /* Change the header background */
+    header {
+        background: #bb8588;
+    }
+
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+        background-color: #bb8588;
+    }
+}
