@@ -42,7 +42,7 @@ h1 {
 nav {
     display: flex;
     background-color: #d37fb4;
-    display: flex;
+    
 }
 
 nav a {
@@ -53,17 +53,17 @@ nav a {
     float: right;
 }
 
-#main-article {
+/* main {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 300px;
-}
+    flex: 1 1 300px;*/
+
 
 .main-header img {
     width: 200px;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 30px;
     transform: rotate(-90deg);
     display: block;
     margin-left: auto;
@@ -72,21 +72,27 @@ nav a {
 
 }
 section {
-    flex: 3;
-    background-color: #756f75;
-    padding: 20px;
+    flex: 0;
+    background-color: #cfa4cf;
+    padding: 30px;
 }
 
 #card-container {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 300px;
+    background-color: #a9a2a7;
 
 }
 
 .card-body img {
-    width: 50%;
+    width: 50%; 
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
 
 footer {
     padding: 20px;
@@ -106,6 +112,7 @@ footer {
     /* Change the header background */
     header {
         background: #bb8588;
+        
     }
 
     /* Change the navbar and footer background */
